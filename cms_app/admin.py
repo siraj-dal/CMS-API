@@ -14,4 +14,4 @@ class post_blogAdmin(admin.ModelAdmin):
 
 @admin.register(like_data)
 class like_dataAdmin(admin.ModelAdmin):
-    list_display = ['like_id', 'user_id', 'post_id', 'likes', 'creation_date']
+    list_display = ['like_id', 'user_id', 'post_id', 'likes','dislikes','creation_date']
