@@ -22,7 +22,7 @@ class info_usersSerializer(serializers.Serializer):
         return instance
 
 
-# TODO :: Use serializers.Serializer method for Serialization
+# TODO :: Use serializers.ModelSerializer method for Serialization
 class BlogSerializer(serializers.ModelSerializer):
     class Meta:
         model = post_blog
